@@ -1,0 +1,22 @@
+# Manifest for revision classbwizard
+SOLUTION=classbwizard
+BUILDNUMBER=284
+REVISION=containerbuild
+solutionName=classbwizard
+productName=Hugo Ananke Static Web Content
+
+containerBuild=./automation/processor/containerBuild.sh ${SOLUTION} ${BUILDNUMBER}
+containerImage=ubuntu:18.04@sha256:05a58ded9a2c792598e8f4aa8ffe300318eac6f294bf4f49a7abae7544918592
+
+artifactPrefix=0.3
+
+processSequence=remoteTasks.sh localTasks.sh
+
+gitRemoteURL=${BKNELSON_GIT_URL}
+gitUserNameEnvVar=${BKNELSON_GIT_USER}
+gitUserPassEnvVar=${BKNELSON_GIT_PASS}
+gitCustomCleanup=$AUTOMATIONROOT/buildandpackage/clean.sh
+
+CDAF_REGISTRY_TAG=cdaf/${SOLUTION}:$BUILDNUMBER
+CDAF_REGISTRY_USER=cdaf
+CDAF_REGISTRY_TOKEN=${DOCKERHUB_TOKEN}
