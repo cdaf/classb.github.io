@@ -1,6 +1,6 @@
 # Manifest for revision classbwizard
 SOLUTION=classbwizard
-BUILDNUMBER=285
+BUILDNUMBER=72
 REVISION=containerbuild
 solutionName=classbwizard
 productName=Hugo Ananke Static Web Content
