@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Specifications on classb.cdaf.io</title>
+    <link>http://classb.cdaf.io/specs/</link>
+    <description>Recent content in Model Specifications on classb.cdaf.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Apr 2021 08:04:45 +1200</lastBuildDate>
+    
+	<atom:link href="http://classb.cdaf.io/specs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flamboyant</title>
+      <link>http://classb.cdaf.io/specs/flamboyant/</link>
+      <pubDate>Sun, 04 Apr 2021 19:45:43 +1200</pubDate>
+      
+      <guid>http://classb.cdaf.io/specs/flamboyant/</guid>
+      <description>Pretty Glamping</description>
+    </item>
+    
+    <item>
+      <title>Ghost</title>
+      <link>http://classb.cdaf.io/specs/ghost/</link>
+      <pubDate>Sun, 04 Apr 2021 19:45:35 +1200</pubDate>
+      
+      <guid>http://classb.cdaf.io/specs/ghost/</guid>
+      <description>stealthy survivalist</description>
+    </item>
+    
+    <item>
+      <title>Adventurer</title>
+      <link>http://classb.cdaf.io/specs/adventurer/</link>
+      <pubDate>Sun, 04 Apr 2021 19:45:08 +1200</pubDate>
+      
+      <guid>http://classb.cdaf.io/specs/adventurer/</guid>
+      <description>Rugged 4x4</description>
+    </item>
+    
+  </channel>
+</rss>
